@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB57C5821D80B77A007EFCAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57C5811D80B77A007EFCAD /* AppDelegate.swift */; };
+		FB57C5841D80B77A007EFCAD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FB57C5831D80B77A007EFCAD /* GameScene.sks */; };
+		FB57C5861D80B77A007EFCAD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57C5851D80B77A007EFCAD /* GameScene.swift */; };
+		FB57C5881D80B77A007EFCAD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57C5871D80B77A007EFCAD /* GameViewController.swift */; };
+		FB57C58B1D80B77A007EFCAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB57C5891D80B77A007EFCAD /* Main.storyboard */; };
+		FB57C58D1D80B77A007EFCAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB57C58C1D80B77A007EFCAD /* Assets.xcassets */; };
+		FB57C5901D80B77A007EFCAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB57C58E1D80B77A007EFCAD /* LaunchScreen.storyboard */; };
+		FB57C59B1D80B77A007EFCAD /* Jack_The_GiantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57C59A1D80B77A007EFCAD /* Jack_The_GiantTests.swift */; };
+		FB57C5A61D80B77A007EFCAD /* Jack_The_GiantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57C5A51D80B77A007EFCAD /* Jack_The_GiantUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB57C5971D80B77A007EFCAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB57C5761D80B77A007EFCAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB57C57D1D80B77A007EFCAD;
+			remoteInfo = "Jack The Giant";
+		};
+		FB57C5A21D80B77A007EFCAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB57C5761D80B77A007EFCAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB57C57D1D80B77A007EFCAD;
+			remoteInfo = "Jack The Giant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB57C57E1D80B77A007EFCAD /* Jack The Giant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack The Giant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB57C5811D80B77A007EFCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB57C5831D80B77A007EFCAD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FB57C5851D80B77A007EFCAD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FB57C5871D80B77A007EFCAD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FB57C58A1D80B77A007EFCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB57C58C1D80B77A007EFCAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB57C58F1D80B77A007EFCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB57C5911D80B77A007EFCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB57C5961D80B77A007EFCAD /* Jack The GiantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jack The GiantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB57C59A1D80B77A007EFCAD /* Jack_The_GiantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_The_GiantTests.swift; sourceTree = "<group>"; };
+		FB57C59C1D80B77A007EFCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB57C5A11D80B77A007EFCAD /* Jack The GiantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jack The GiantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB57C5A51D80B77A007EFCAD /* Jack_The_GiantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_The_GiantUITests.swift; sourceTree = "<group>"; };
+		FB57C5A71D80B77A007EFCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB57C57B1D80B77A007EFCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB57C5931D80B77A007EFCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB57C59E1D80B77A007EFCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB57C5751D80B77A007EFCAD = {
+			isa = PBXGroup;
+			children = (
+				FB57C5801D80B77A007EFCAD /* Jack The Giant */,
+				FB57C5991D80B77A007EFCAD /* Jack The GiantTests */,
+				FB57C5A41D80B77A007EFCAD /* Jack The GiantUITests */,
+				FB57C57F1D80B77A007EFCAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB57C57F1D80B77A007EFCAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB57C57E1D80B77A007EFCAD /* Jack The Giant.app */,
+				FB57C5961D80B77A007EFCAD /* Jack The GiantTests.xctest */,
+				FB57C5A11D80B77A007EFCAD /* Jack The GiantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB57C5801D80B77A007EFCAD /* Jack The Giant */ = {
+			isa = PBXGroup;
+			children = (
+				FB57C5811D80B77A007EFCAD /* AppDelegate.swift */,
+				FB57C5831D80B77A007EFCAD /* GameScene.sks */,
+				FB57C5851D80B77A007EFCAD /* GameScene.swift */,
+				FB57C5871D80B77A007EFCAD /* GameViewController.swift */,
+				FB57C5891D80B77A007EFCAD /* Main.storyboard */,
+				FB57C58C1D80B77A007EFCAD /* Assets.xcassets */,
+				FB57C58E1D80B77A007EFCAD /* LaunchScreen.storyboard */,
+				FB57C5911D80B77A007EFCAD /* Info.plist */,
+			);
+			path = "Jack The Giant";
+			sourceTree = "<group>";
+		};
+		FB57C5991D80B77A007EFCAD /* Jack The GiantTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB57C59A1D80B77A007EFCAD /* Jack_The_GiantTests.swift */,
+				FB57C59C1D80B77A007EFCAD /* Info.plist */,
+			);
+			path = "Jack The GiantTests";
+			sourceTree = "<group>";
+		};
+		FB57C5A41D80B77A007EFCAD /* Jack The GiantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB57C5A51D80B77A007EFCAD /* Jack_The_GiantUITests.swift */,
+				FB57C5A71D80B77A007EFCAD /* Info.plist */,
+			);
+			path = "Jack The GiantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB57C57D1D80B77A007EFCAD /* Jack The Giant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB57C5AA1D80B77A007EFCAD /* Build configuration list for PBXNativeTarget "Jack The Giant" */;
+			buildPhases = (
+				FB57C57A1D80B77A007EFCAD /* Sources */,
+				FB57C57B1D80B77A007EFCAD /* Frameworks */,
+				FB57C57C1D80B77A007EFCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jack The Giant";
+			productName = "Jack The Giant";
+			productReference = FB57C57E1D80B77A007EFCAD /* Jack The Giant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB57C5951D80B77A007EFCAD /* Jack The GiantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB57C5AD1D80B77A007EFCAD /* Build configuration list for PBXNativeTarget "Jack The GiantTests" */;
+			buildPhases = (
+				FB57C5921D80B77A007EFCAD /* Sources */,
+				FB57C5931D80B77A007EFCAD /* Frameworks */,
+				FB57C5941D80B77A007EFCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB57C5981D80B77A007EFCAD /* PBXTargetDependency */,
+			);
+			name = "Jack The GiantTests";
+			productName = "Jack The GiantTests";
+			productReference = FB57C5961D80B77A007EFCAD /* Jack The GiantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB57C5A01D80B77A007EFCAD /* Jack The GiantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB57C5B01D80B77A007EFCAD /* Build configuration list for PBXNativeTarget "Jack The GiantUITests" */;
+			buildPhases = (
+				FB57C59D1D80B77A007EFCAD /* Sources */,
+				FB57C59E1D80B77A007EFCAD /* Frameworks */,
+				FB57C59F1D80B77A007EFCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB57C5A31D80B77A007EFCAD /* PBXTargetDependency */,
+			);
+			name = "Jack The GiantUITests";
+			productName = "Jack The GiantUITests";
+			productReference = FB57C5A11D80B77A007EFCAD /* Jack The GiantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB57C5761D80B77A007EFCAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tang Kit";
+				TargetAttributes = {
+					FB57C57D1D80B77A007EFCAD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FB57C5951D80B77A007EFCAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FB57C57D1D80B77A007EFCAD;
+					};
+					FB57C5A01D80B77A007EFCAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FB57C57D1D80B77A007EFCAD;
+					};
+				};
+			};
+			buildConfigurationList = FB57C5791D80B77A007EFCAD /* Build configuration list for PBXProject "Jack The Giant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB57C5751D80B77A007EFCAD;
+			productRefGroup = FB57C57F1D80B77A007EFCAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB57C57D1D80B77A007EFCAD /* Jack The Giant */,
+				FB57C5951D80B77A007EFCAD /* Jack The GiantTests */,
+				FB57C5A01D80B77A007EFCAD /* Jack The GiantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB57C57C1D80B77A007EFCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB57C5841D80B77A007EFCAD /* GameScene.sks in Resources */,
+				FB57C5901D80B77A007EFCAD /* LaunchScreen.storyboard in Resources */,
+				FB57C58D1D80B77A007EFCAD /* Assets.xcassets in Resources */,
+				FB57C58B1D80B77A007EFCAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB57C5941D80B77A007EFCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB57C59F1D80B77A007EFCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB57C57A1D80B77A007EFCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB57C5861D80B77A007EFCAD /* GameScene.swift in Sources */,
+				FB57C5881D80B77A007EFCAD /* GameViewController.swift in Sources */,
+				FB57C5821D80B77A007EFCAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB57C5921D80B77A007EFCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB57C59B1D80B77A007EFCAD /* Jack_The_GiantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB57C59D1D80B77A007EFCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB57C5A61D80B77A007EFCAD /* Jack_The_GiantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB57C5981D80B77A007EFCAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB57C57D1D80B77A007EFCAD /* Jack The Giant */;
+			targetProxy = FB57C5971D80B77A007EFCAD /* PBXContainerItemProxy */;
+		};
+		FB57C5A31D80B77A007EFCAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB57C57D1D80B77A007EFCAD /* Jack The Giant */;
+			targetProxy = FB57C5A21D80B77A007EFCAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB57C5891D80B77A007EFCAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB57C58A1D80B77A007EFCAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB57C58E1D80B77A007EFCAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB57C58F1D80B77A007EFCAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB57C5A81D80B77A007EFCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB57C5A91D80B77A007EFCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB57C5AB1D80B77A007EFCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jack The Giant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangkit.Jack-The-Giant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB57C5AC1D80B77A007EFCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jack The Giant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangkit.Jack-The-Giant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB57C5AE1D80B77A007EFCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Jack The GiantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangkit.Jack-The-GiantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jack The Giant.app/Jack The Giant";
+			};
+			name = Debug;
+		};
+		FB57C5AF1D80B77A007EFCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jack The GiantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangkit.Jack-The-GiantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jack The Giant.app/Jack The Giant";
+			};
+			name = Release;
+		};
+		FB57C5B11D80B77A007EFCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Jack The GiantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangkit.Jack-The-GiantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jack The Giant";
+			};
+			name = Debug;
+		};
+		FB57C5B21D80B77A007EFCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jack The GiantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangkit.Jack-The-GiantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jack The Giant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB57C5791D80B77A007EFCAD /* Build configuration list for PBXProject "Jack The Giant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB57C5A81D80B77A007EFCAD /* Debug */,
+				FB57C5A91D80B77A007EFCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB57C5AA1D80B77A007EFCAD /* Build configuration list for PBXNativeTarget "Jack The Giant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB57C5AB1D80B77A007EFCAD /* Debug */,
+				FB57C5AC1D80B77A007EFCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB57C5AD1D80B77A007EFCAD /* Build configuration list for PBXNativeTarget "Jack The GiantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB57C5AE1D80B77A007EFCAD /* Debug */,
+				FB57C5AF1D80B77A007EFCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB57C5B01D80B77A007EFCAD /* Build configuration list for PBXNativeTarget "Jack The GiantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB57C5B11D80B77A007EFCAD /* Debug */,
+				FB57C5B21D80B77A007EFCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB57C5761D80B77A007EFCAD /* Project object */;
+}
