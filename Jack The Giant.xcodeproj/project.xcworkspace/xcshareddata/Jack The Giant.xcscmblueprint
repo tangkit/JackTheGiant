@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "71C82DD5EEE8D81BF0B84BC1BD5E2D11DA7A4E54",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CF5B26D7BE74D3224EF073EB6AE8178841A49B7C" : 0,
+    "71C82DD5EEE8D81BF0B84BC1BD5E2D11DA7A4E54" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "38C8BA43-4143-48D0-97E1-8CB6D8DA2849",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CF5B26D7BE74D3224EF073EB6AE8178841A49B7C" : "..",
+    "71C82DD5EEE8D81BF0B84BC1BD5E2D11DA7A4E54" : "Jack%20The%20Giant\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Jack The Giant",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Jack The Giant.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tangkit\/JackTheGiant.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71C82DD5EEE8D81BF0B84BC1BD5E2D11DA7A4E54"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tangkit\/JackTheGiant.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CF5B26D7BE74D3224EF073EB6AE8178841A49B7C"
+    }
+  ]
+}

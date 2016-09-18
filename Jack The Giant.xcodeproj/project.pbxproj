@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB50CD211D85727B00C3B506 /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FB50CD201D85727B00C3B506 /* Player.atlas */; };
+		FB50CD251D8596C400C3B506 /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50CD241D8596C400C3B506 /* BGClass.swift */; };
 		FB57C5821D80B77A007EFCAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57C5811D80B77A007EFCAD /* AppDelegate.swift */; };
 		FB57C5841D80B77A007EFCAD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FB57C5831D80B77A007EFCAD /* GameScene.sks */; };
 		FB57C5861D80B77A007EFCAD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57C5851D80B77A007EFCAD /* GameScene.swift */; };
@@ -60,6 +62,7 @@
 		FB57C6141D80BA97007EFCAD /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FB57C6131D80BA97007EFCAD /* GameplayScene.sks */; };
 		FB57C6191D80BD92007EFCAD /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57C6181D80BD92007EFCAD /* GameplayScene.swift */; };
 		FB57C61C1D80BF2B007EFCAD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57C61B1D80BF2B007EFCAD /* Player.swift */; };
+		FB9A0CAB1D86C6AD007AB24E /* CloudsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A0CAA1D86C6AD007AB24E /* CloudsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB50CD201D85727B00C3B506 /* Player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player.atlas; sourceTree = "<group>"; };
+		FB50CD241D8596C400C3B506 /* BGClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
 		FB57C57E1D80B77A007EFCAD /* Jack The Giant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack The Giant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB57C5811D80B77A007EFCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB57C5831D80B77A007EFCAD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -139,6 +144,7 @@
 		FB57C6131D80BA97007EFCAD /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
 		FB57C6181D80BD92007EFCAD /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
 		FB57C61B1D80BF2B007EFCAD /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FB9A0CAA1D86C6AD007AB24E /* CloudsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB50CD221D85969400C3B506 /* Background Class */ = {
+			isa = PBXGroup;
+			children = (
+				FB50CD241D8596C400C3B506 /* BGClass.swift */,
+			);
+			name = "Background Class";
+			sourceTree = "<group>";
+		};
+		FB50CD261D85AD8600C3B506 /* Clouds Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A0CAA1D86C6AD007AB24E /* CloudsController.swift */,
+			);
+			name = "Clouds Classes";
+			sourceTree = "<group>";
+		};
 		FB57C5751D80B77A007EFCAD = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +247,7 @@
 		FB57C5B41D80B7CF007EFCAD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				FB50CD201D85727B00C3B506 /* Player.atlas */,
 				FB57C6011D80B9D3007EFCAD /* Player */,
 				FB57C5B51D80B886007EFCAD /* 1 - Pause Panel And Buttons */,
 				FB57C5BA1D80B886007EFCAD /* 2 - Collectables */,
@@ -369,6 +392,8 @@
 		FB57C6151D80BCDF007EFCAD /* Game Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FB50CD261D85AD8600C3B506 /* Clouds Classes */,
+				FB50CD221D85969400C3B506 /* Background Class */,
 				FB57C61A1D80BF14007EFCAD /* Player Class */,
 				FB57C6171D80BD19007EFCAD /* Scene Classes */,
 			);
@@ -533,6 +558,7 @@
 				FB57C5E51D80B886007EFCAD /* Life.png in Resources */,
 				FB57C5E31D80B886007EFCAD /* Show Score.png in Resources */,
 				FB57C5FA1D80B886007EFCAD /* Medium Button.png in Resources */,
+				FB50CD211D85727B00C3B506 /* Player.atlas in Resources */,
 				FB57C5F51D80B886007EFCAD /* Score.png in Resources */,
 				FB57C5F81D80B886007EFCAD /* Easy Button.png in Resources */,
 				FB57C5E11D80B886007EFCAD /* Quit Button 2.png in Resources */,
@@ -566,10 +592,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB57C6191D80BD92007EFCAD /* GameplayScene.swift in Sources */,
+				FB9A0CAB1D86C6AD007AB24E /* CloudsController.swift in Sources */,
 				FB57C5861D80B77A007EFCAD /* GameScene.swift in Sources */,
 				FB57C5881D80B77A007EFCAD /* GameViewController.swift in Sources */,
 				FB57C61C1D80BF2B007EFCAD /* Player.swift in Sources */,
 				FB57C5821D80B77A007EFCAD /* AppDelegate.swift in Sources */,
+				FB50CD251D8596C400C3B506 /* BGClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -796,6 +824,7 @@
 				FB57C5AC1D80B77A007EFCAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB57C5AD1D80B77A007EFCAD /* Build configuration list for PBXNativeTarget "Jack The GiantTests" */ = {
 			isa = XCConfigurationList;
@@ -804,6 +833,7 @@
 				FB57C5AF1D80B77A007EFCAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB57C5B01D80B77A007EFCAD /* Build configuration list for PBXNativeTarget "Jack The GiantUITests" */ = {
 			isa = XCConfigurationList;
@@ -812,6 +842,7 @@
 				FB57C5B21D80B77A007EFCAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
