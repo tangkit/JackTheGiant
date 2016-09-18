@@ -10,11 +10,29 @@ import SpriteKit
 
 class CloudsController {
     
-    func createClouds()->[SKSpriteNode]{
+    var lastCloudPositionY = CGFloat();
+    
+    func shuffle(var cloudsArray: [SKSpriteNode]) -> [SKSpriteNode] {
+        
+        for var i = cloudsArray.count - 1; i > 0; i-- {
+            let j = Int(arc4random_uniform(UInt32(i-1)));
+            swap(&cloudsArray[i], &cloudsArray[j])
+            
+            
+        }
+        return cloudsArray;
+    }
+
+    func randomBetweenNumbers(firstNum: CGFloat, secondNum: CGFloat) -> CGFloat {
+
+        return CGFloat(arc4random()) / CGFloat(UINT32_MAX) * abs(firstNum - secondNum) + min(firstNum, secondNum);
+    }
+    
+    func createClouds() -> [SKSpriteNode]{
         
         var clouds = [SKSpriteNode]();
         
-        for var i = 0; i < 2; i++ {
+        for i in 0...2 {
             let cloud1 = SKSpriteNode(imageNamed: "Cloud 1");
             cloud1.name = "1";
             let cloud2 = SKSpriteNode(imageNamed: "Cloud 2");
@@ -22,6 +40,7 @@ class CloudsController {
             let cloud3 = SKSpriteNode(imageNamed: "Cloud 3");
             cloud3.name = "3";
             let darkCloud = SKSpriteNode(imageNamed: "Dark Cloud");
+            darkCloud.name = "Dark Cloud";
 
             cloud1.xScale = 0.9;
             cloud1.yScale = 0.9;
@@ -44,6 +63,7 @@ class CloudsController {
             
         }
         
+        clouds = shuffle(clouds);
         return clouds;
     }
     
@@ -51,9 +71,35 @@ class CloudsController {
         
         var clouds = createClouds();
         
-        if initialClouds
+        if initialClouds {
+            while(clouds[0].name == "Dark Cloud"){
+                clouds = shuffle(clouds);
+            }
+        }
+        
+        var positionY = CGFloat();
+        
+        if initialClouds {
+            positionY = center - 100;
+        } else {
+            positionY = lastCloudPositionY;
+        }
+        
+        for i in 0...clouds.count - 1 {
+            
+            clouds[i].position = CGPoint(x: 0, y: positionY);
+            clouds[i].zPosition = 3;
+            scene.addChild(clouds[i]);
+            positionY -= distanceBetweenClouds;
+            lastCloudPositionY = positionY;
+        }
+        
     }
 }
+
+
+
+
 
 
 
